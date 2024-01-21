@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teamfind Recruitment</title>
+  <script src="script.js" defer></script>
+  <style>
+    body {
+      background-color: #f0f0f0; /* Gray background similar to Teamfind */
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #333; /* Dark header similar to Teamfind */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .form-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .submit-button {
+      background-color: #4CAF50; /* Green button similar to Teamfind */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .submit-button:hover {
+      background-color: #45a049;
+    }
+    a {
+      color:#45a049
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Teamfind Recruitment</h1>
+    <span style="display: block;">
+      1. Navigate to <a href="http://teamfind.com" target="_blank">TeamFind</a> and make sure you are logged in<br>
+      2. Press F12, inside of the console paste in copy(localStorage.getItem("jwt"))<br>
+      3. You will now have Site Auth Token in your clipboard, which can be pasted into the text field below<br>
+    </span>
+  </div>
+  <div class="form-container">
+    <form id="myForm">
+      <label for="siteAuthToken">Site Auth Token:</label>
+      <input id="siteAuthToken" type="text"></input>
+      <br><br>
+      <label for="arAmount">Number of People to Message:</label>
+      <input id="arAmount" type="number"></input>
+      <br><br>
+      <label for="myTextArea">Your Message:</label> <br>
+      <textarea id="myTextArea" rows="4" cols="50"></textarea>
+      <br>
+      <button class="submit-button" type="button" onclick="submitForm()">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
