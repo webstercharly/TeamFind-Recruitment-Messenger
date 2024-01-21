@@ -2,6 +2,10 @@
 
 A web-based tool to automate messaging for recruitment on TeamFind. This tool allows team managers and recruiters to send custom messages to a selected number of players, streamlining the recruitment process on the TeamFind platform.
 
+## Responsible Use
+
+This tool is designed to help streamline the recruitment process on TeamFind. Users are urged not to abuse this tool for spamming or any form of harassment. Always check TeamFind's terms and conditions to ensure compliance with their policies before using this tool.
+
 ## Features
 
 - Automate sending custom messages to players on TeamFind.
